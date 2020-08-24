@@ -1,11 +1,10 @@
 defmodule PhoenixChat.Messages.Message do
   use Ecto.Schema
   import Ecto.Changeset
-  alias PhoenixChat.Users.User
 
   schema "messages" do
-    field :text, :string
-    belongs_to :user, User
+    field :name, :string
+    field :message, :string
 
     timestamps()
   end
@@ -13,7 +12,7 @@ defmodule PhoenixChat.Messages.Message do
   @doc false
   def changeset(message, attrs) do
     message
-    |> cast(attrs, [:text, :user_id])
-    |> validate_required([:text, :user_id])
+    |> cast(attrs, [:name, :message])
+    |> validate_required([:name, :message])
   end
 end

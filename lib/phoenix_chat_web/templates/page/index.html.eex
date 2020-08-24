@@ -1,10 +1,10 @@
-<ul id='msg-list' class='row' style='list-style: none; min-height:200px; padding: 10px;'></ul>
+<ul id='message-list'></ul>
 
-<div class="row">
-  <div class="column column-20">
-    <input type="text" id="name" class="form-control" placeholder="Your Name" autofocus>
+<div class='row'>
+  <div class='column column-20'>
+    <input type='text' id='name' class='form-control' placeholder='Name' autofocus>
   </div>
-  <div class="column column-80">
-    <input type="text" id="msg" class="form-control" placeholder="Your Message">
+  <div class='column column-80'>
+    <input type='text' id='message' class='form-control' placeholder='Message'>
   </div>
 </div>
