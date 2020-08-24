@@ -1,3 +1,15 @@
+Interesting files:
+
+https://github.com/yuriyalekseyev/phoenix_chat/blob/master/priv/repo/migrations/20200823181602_create_messages.exs
+https://github.com/yuriyalekseyev/phoenix_chat/blob/master/lib/phoenix_chat/messages/message.ex
+https://github.com/yuriyalekseyev/phoenix_chat/blob/master/lib/phoenix_chat/messages.ex
+
+https://github.com/yuriyalekseyev/phoenix_chat/blob/master/lib/phoenix_chat_web/channels/user_socket.ex
+https://github.com/yuriyalekseyev/phoenix_chat/blob/master/lib/phoenix_chat_web/channels/room_channel.ex
+
+https://github.com/yuriyalekseyev/phoenix_chat/blob/master/assets/js/app.js
+https://github.com/yuriyalekseyev/phoenix_chat/blob/master/lib/phoenix_chat_web/templates/page/index.html.eex
+
 # PhoenixChat
 
 To start your Phoenix server:
